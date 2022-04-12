@@ -1,0 +1,19 @@
+#button1 {
+  padding: 10px;
+  width: 130px;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: 1px black solid;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px aqua;
+  transition: all 200ms;
+  cursor: pointer;
+}
+#button1:hover {
+  color: white;
+  background-color: black;
+}
+#button1:active {
+  transform: translateY(5px);
+  box-shadow: none;
+}
