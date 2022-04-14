@@ -78,3 +78,56 @@ button {
   box-shadow: 0 0 1em rgb(0, 255, 149);
 
 }
+
+#button5 {
+  border: none;
+  border-radius: 30px;
+  transition: all 200ms;
+}
+
+#button5:hover {
+  background-color: aqua;
+  color: black;
+  transform: scale(1.2);
+}
+
+#button5:active {
+  box-shadow: 0px 0px 10px aqua;
+  transform: scale(0.9);
+}
+
+#button6 {
+  background-color: gold;
+  border: 3px black solid;
+  border-radius: 15px;
+  transition: all 200ms;
+}
+
+#button6:hover {
+  background-color: white;
+}
+
+#button6:active {
+  transform: translateY(5px);
+  box-shadow: 0px -5px 10px black;
+}
+
+#button7 {
+  background-color: red;
+  color: yellow;
+  border: 2px solid black;
+  border-radius: 20px;
+  transition: all 200ms;
+}
+
+#button7:hover {
+  background-color: yellow;
+  color: red;
+}
+
+#button7:active {
+  transform: scale(0.9);
+  background-color: green;
+  color: black;
+  box-shadow: 0px 0px 10px aqua;
+}
